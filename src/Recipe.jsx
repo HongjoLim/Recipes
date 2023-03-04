@@ -7,11 +7,11 @@ const Recipe = ({recipe}) => {
                 <p></p>
             </div>
             <div>
-                <img src={recipe['strMealThumb']} alt={recipe['strMeal']} />
+                <img src={recipe.strMealThumb} alt={recipe.strMeal} />
             </div>
             <div>
-                <h3>{recipe['strMeal']}</h3>
-                <span>{recipe['strCategory']} | {recipe['strArea']}</span>
+                <h3>{recipe.strMeal}</h3>
+                <span>{recipe.strCategory} | {recipe.strArea}</span>
             </div>
         </div>
     )
